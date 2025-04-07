@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Movie Adventure!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>Minecraft Movie Adventure!</h1>
+        <button id="start-button" onclick="startGame()">Start Game</button>
+    </div>
+    <div class="hearts" style="display: none;">
+        <img id="heart1" src="images/heart.png" alt="Heart">
+        <img id="heart2" src="images/heart.png" alt="Heart">
+        <img id="heart3" src="images/heart.png" alt="Heart">
+    </div>
+    <div class="container" style="display: none;">
+        <h2 class="game-title">Minecraft Movie Adventure!</h2>
+        <div id="game-content">
+            <div id="story-box">
+                <div id="story-text"></div>
+                <div id="options">
+                    <button onclick="checkAnswer(0)">Option 1</button>
+                    <button onclick="checkAnswer(1)">Option 2</button>
+                    <button onclick="checkAnswer(2)">Option 3</button>
+                </div>
+                <div id="feedback"></div>
+            </div>
+            <div id="cutscene" style="display: none;">
+                <div id="cutscene-text"></div>
+                <button id="continue-button" onclick="continueStory()">Continue</button>
+            </div>
+        </div>
+        <div id="image-box">
+            <img id="story-image" src="images/Start.png" alt="Current Scene">
+        </div>
+        <button id="restart-button" onclick="startGame()" style="display:none;">Play Again!</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

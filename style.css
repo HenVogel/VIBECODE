@@ -1,0 +1,239 @@
+body {
+    font-family: sans-serif;
+    background-image: url('images/Brickwall.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+#start-screen {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    border: 4px solid #333;
+    /* Center the content (text and button) inside the start screen */
+    display: flex;
+    flex-direction: column; /* Stack the title and button vertically */
+    justify-content: center; /* Center horizontally within the start screen */
+    align-items: center; /* Center vertically within the start screen */
+}
+
+#start-screen h1 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 3em;
+}
+
+#start-button {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #5cb85c; /* Green button */
+    color: white;
+    cursor: pointer;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#start-button:hover {
+    background-color: #4cae4c;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.35);
+}
+
+.hearts {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+}
+
+.hearts img {
+    width: 40px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.hearts img.faded {
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+    text-align: center; /* Center text within the container */
+    margin-bottom: 30px;
+    width: 85%;
+    max-width: 1000px;
+    display: none;
+}
+
+.game-title {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+h1 { /* This is for the start screen title */
+    /* ... styles from above ... */
+}
+
+#game-content {
+    position: relative;
+    width: 100%;
+    text-align: center; /* Center the story box and options */
+}
+
+#story-box {
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    background-color: rgba(212, 212, 212, 0.95);
+    margin-bottom: 15px;
+    display: inline-block; /* Make it take only the necessary width and center */
+    text-align: left; /* Align text inside the story box to the left for readability */
+}
+
+#story-text {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: left; /* Keep text aligned to the left */
+}
+
+#options {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line if needed */
+}
+
+#options button {
+    padding: 12px 25px;
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    border: #000000;
+    font-size: 1.1em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#options button:hover {
+    background-color: #4cae4c;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.35);
+}
+
+#feedback {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+}
+
+#restart-button {
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3em;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Keep it centered */
+}
+
+#restart-button:hover {
+    background-color: #c82333;
+}
+
+#image-box {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 25px;
+    width: 75%;
+    max-width: 850px;
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    display: block; /* Make margin auto work */
+}
+
+#story-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;
+}
+
+#cutscene {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+    display: none;
+}
+
+#cutscene-text {
+    font-size: 2.2em;
+    margin-bottom: 40px;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#continue-button {
+    padding: 18px 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+
+#continue-button:hover {
+    background-color: #0056b3;
+}
+
+#continue-button {
+    padding: 18px 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+
+#continue-button:hover {
+    background-color: #0056b3;
+}
