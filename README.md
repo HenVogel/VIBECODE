@@ -1,6 +1,6 @@
 # VIBECODE
 
-How to Set Up:
+## How to Set Up:
 
 Get the Files: You should have a few files:
 
