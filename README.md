@@ -4,11 +4,11 @@
 
 Get the Files: You should have a few files:
 
-index.html: This is the main webpage that runs the game.< br / >
-style.css: This file tells the webpage how to look cool with colors and sizes.< br / >
-script.js: This file is the brain of the game, making everything work.< br / >
-An images folder: This folder holds all the pictures for your adventure. Make sure this folder is in the same place as your index.html file. You will have to place all the images in this folder after creating it.< br / >
-Open in Your Browser: That's it! Just find the index.html file on your computer and double-click it. It should open right up in your favorite web browser (like Chrome, Firefox, Safari, or Edge).< br / >
+index.html: This is the main webpage that runs the game. < br / >
+style.css: This file tells the webpage how to look cool with colors and sizes. < br / >
+script.js: This file is the brain of the game, making everything work. < br / >
+An images folder: This folder holds all the pictures for your adventure. Make sure this folder is in the same place as your index.html file. You will have to place all the images in this folder after creating it. < br / >
+Open in Your Browser: That's it! Just find the index.html file on your computer and double-click it. It should open right up in your favorite web browser (like Chrome, Firefox, Safari, or Edge). < br / >
 
 ## How to Play:
 
