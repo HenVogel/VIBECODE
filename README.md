@@ -1,43 +1,39 @@
-# VIBECODE
+# My Awesome Project!
 
-## How to Set Up:
+## What did you build?
 
-Get the Files: You should have a few files:
+I built a story game called "Minecraft Movie Adventure!". It is based off of the Minecraft Movie that just came out. Steve.
 
-index.html: This is the main webpage that runs the game.
-style.css: This file tells the webpage how to look cool with colors and sizes.
-script.js: This file is the brain of the game, making everything work.
-An images folder: This folder holds all the pictures for your adventure (like hearts, portals, and maybe even a grumpy Steve!). Make sure this folder is in the same place as your index.html file.
-Open in Your Browser: That's it! Just find the index.html file on your computer and double-click it. It should open right up in your favorite web browser (like Chrome, Firefox, Safari, or Edge).
+## What language(s) or tools did you use?
 
-## How to Play:
+* **HTML (`index.html`)**: Web Page Structure. Tells the browser what all the parts of the game are.
+* **CSS (`style.css`)**: Makes the game look good. Controls things like the colors, the sizes of the boxes and buttons, and where things are on the screen.
+* **JavaScript (`script.js`)**: This is the main code of the game. It decides what story text to show, what happens when you click a button, keeps track of your hearts, and shows the cutscenes.
 
-Start Screen: When the game loads, you'll see a title and a big green "Start Game" button. Click that button to begin your adventure!
+## Which AI tools did you use, and how?
 
-The Story Unfolds: You'll be presented with a story and a question with three choices. Read carefully!
+* **I used Gemini to write and edit code.
+* **I tried others but none did it as well as Gemini.
 
-Make Your Choice: Click on the button that you think is the best answer.
+## What did you do versus what AI helped with?
 
-See What Happens: The game will tell you if you made the right choice and what happens next. Sometimes, you might even see a little message pop up in a dark screen for a bit before the story continues!
+**What I did:**
 
-Keep an Eye on Your Hearts: In the top left corner, you'll see some hearts. These show how many chances you have. If you make a wrong choice sometimes, you might lose a heart.
+* I had the initial idea to build a game.
+* I told the AI what kind of game I wanted (Minecraft-themed).
+* I described how I wanted the game to work.
+* I asked the AI specific questions and gave it instructions on what to build or fix.
+* I organized the files and made sure they were in the right place.
+* I tested the game in my web browser to see if it worked.
 
-Game Over or Victory! If you lose all your hearts, the game will be over, and you'll see a "Play Again!" button. If you make it through all the challenges, you'll get a victory message and the same "Play Again!" button to start a new adventure.
+**What AI helped with:**
 
-Have Fun! This is your chance to explore a wacky Minecraft-inspired world and see what happens with each choice you make!
+* Coming up with specific story ideas and writing the text for each part.
+* Writing the HTML structure for the webpage.
+* Writing the CSS to style all the different elements.
+* Writing the JavaScript code to make the game logic work.
+* Helping to center things on the screen and make the game look better.
 
-Game Description: "Minecraft Movie Adventure!"
-Get ready for an exciting and unpredictable journey inspired by the world of Minecraft! In "Minecraft Movie Adventure!", you'll find yourself in the middle of a thrilling story filled with familiar creatures, surprising encounters, and tough decisions.
+## What’s one thing you’re proud of
 
-Will you bravely step through a shimmering portal? How will you react when a hissing Creeper approaches? Can you outrun a horde of Zombies or maybe even confuse an angry Steve?
-
-This isn't just a game; it's an interactive story where your choices shape the adventure. With each click, you'll navigate through funny, dangerous, and sometimes just plain weird situations. Keep your wits about you, because one wrong move might cost you a life!
-
-## Featuring:
-
-A branching storyline where your decisions matter.
-Encounters with iconic Minecraft mobs and characters.
-A health system represented by hearts, so choose wisely!
-Cool images to bring the story to life.
-A start screen to jump right into the adventure and a "Play Again!" button for endless fun.
-So, are you ready to become the star of your own "Minecraft Movie Adventure!"? Click "Start Game" and let the blocky chaos begin!
+That I got the game to have a start screen with a button that works.
