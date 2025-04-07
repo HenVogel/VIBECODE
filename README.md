@@ -10,7 +10,7 @@ script.js: This file is the brain of the game, making everything work.
 An images folder: This folder holds all the pictures for your adventure (like hearts, portals, and maybe even a grumpy Steve!). Make sure this folder is in the same place as your index.html file.
 Open in Your Browser: That's it! Just find the index.html file on your computer and double-click it. It should open right up in your favorite web browser (like Chrome, Firefox, Safari, or Edge).
 
-How to Play:
+## How to Play:
 
 Start Screen: When the game loads, you'll see a title and a big green "Start Game" button. Click that button to begin your adventure!
 
@@ -33,7 +33,7 @@ Will you bravely step through a shimmering portal? How will you react when a his
 
 This isn't just a game; it's an interactive story where your choices shape the adventure. With each click, you'll navigate through funny, dangerous, and sometimes just plain weird situations. Keep your wits about you, because one wrong move might cost you a life!
 
-Featuring:
+## Featuring:
 
 A branching storyline where your decisions matter.
 Encounters with iconic Minecraft mobs and characters.
